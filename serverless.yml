@@ -1,5 +1,5 @@
-org: devweek2020
-app: sls-jams
+org: yourorg
+app: preview-deployments
 service: serverlessjams
 
 frameworkVersion: ">=1.53.0 <2.0.0"

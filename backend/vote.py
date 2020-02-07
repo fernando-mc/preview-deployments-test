@@ -41,7 +41,7 @@ def handler(event, context):
         },
         UpdateExpression='ADD votes :inc',
         ExpressionAttributeValues={
-            ':inc': 1
+            ':inc': 4
         },
         ReturnValues="UPDATED_NEW"
     )
